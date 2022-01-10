@@ -1110,4 +1110,36 @@ color: white;
   height: 270px;
   width: 500px;
   box-shadow: 5px 5px 5px grey;
+} 
+
+#skillCardTech{
+  border: 1px;
+  display: flex;
+  gap: 20px
+  ;
+} 
+
+#skillCardTech > div {
+
+  width: 80px;
+} 
+
+@media(max-width :768){ 
+
+  #skillCardTech{
+    border: 1px;
+    display: flex;
+    gap: 20px
+    ;
+  }
+ 
+} 
+@media(max-width :500px){
+  #skillCardTech{
+    border: 1px;
+    display: grid ; 
+    grid-template-columns: 25% 25% 25% ;
+    /* grid-template-rows: 80px auto 80px;  */
+  }
+ 
 }
